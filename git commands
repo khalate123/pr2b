@@ -1,6 +1,6 @@
 
-PS F:\Admin_dashboard\practic> cd college
-PS F:\Admin_dashboard\practic\college> git init
+# PS F:\Admin_dashboard\practic> cd college
+#PS F:\Admin_dashboard\practic\college> git init
 Initialized empty Git repository in F:/Admin_dashboard/practic/college/.git/
 PS F:\Admin_dashboard\practic\college> git status
 On branch master
@@ -9,15 +9,15 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         demo.txt
 nothing added to commit but untracked files present (use "git add" to track)
-PS F:\Admin_dashboard\practic\college> git add demo.txt
-PS F:\Admin_dashboard\practic\college> git config --global user.email "yogitakhalate711@gmail.com"
-PS F:\Admin_dashboard\practic\college> git config --global user.name "khalate123"
-PS F:\Admin_dashboard\practic\college> git commit -m "comitting a text file"
+# PS F:\Admin_dashboard\practic\college> git add demo.txt
+# PS F:\Admin_dashboard\practic\college> git config --global user.email "yogitakhalate711@gmail.com"
+# PS F:\Admin_dashboard\practic\college> git config --global user.name "khalate123"
+# PS F:\Admin_dashboard\practic\college> git commit -m "comitting a text file"
 [master (root-commit) bccab42] comitting a text file
  1 file changed, 1 insertion(+)
  create mode 100644 demo.txt
-PS F:\Admin_dashboard\practic\college> git remote add origin https://github.com/khalate123/college_demo.git
-PS F:\Admin_dashboard\practic\college> git push origin master
+# PS F:\Admin_dashboard\practic\college> git remote add origin https://github.com/khalate123/college_demo.git
+# PS F:\Admin_dashboard\practic\college> git push origin master
 info: please complete authentication in your browser...
 fatal: A task was canceled.
 Enumerating objects: 3, done.
@@ -26,21 +26,12 @@ Writing objects: 100% (3/3), 223 bytes | 44.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/khalate123/college_demo.git
  * [new branch]      master -> master
-PS F:\Admin_dashboard\practic\college> git pull  origin master
+# PS F:\Admin_dashboard\practic\college> git pull  origin master
 From https://github.com/khalate123/college_demo
  * branch            master     -> FETCH_HEAD
 Already up to date.
-PS F:\Admin_dashboard\practic\college> git pull https://github.com/khalate123/college_demo
+# PS F:\Admin_dashboard\practic\college> git pull https://github.com/khalate123/college_demo
 From https://github.com/khalate123/college_demo
  * branch            HEAD       -> FETCH_HEAD
 Already up to date.
-PS F:\Admin_dashboard\practic\college> <a href="#" target="_blank">
-< : The term '<' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, 
-verify that the path is correct and try again.
-At line:1 char:1
-+ <a href="#" target="_blank">
-+ ~
-    + CategoryInfo          : ObjectNotFound: (<:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
- 
-PS F:\Admin_dashboard\practic\college>
+
